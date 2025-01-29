@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul, ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,span,div{
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------------- banner --------------- */
+header{
+    background: url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_overlay{
+    background-color: rgba(0, 0, 0, .1);
+    padding: 50px 0;
+}
+.banner_content h1{
+    font-size: 65px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+.banner_content p{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 50px;
+}
+.banner_content a{
+    padding: 10px 35px;
+    background-color: #e84545;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 3px;
+    transition: all linear .3s;
+}
+.banner_content a:hover{
+    background-color: black;
+    transition: all linear .3s;
+}
+/* ------------------- banner --------------- */
+/* ------------------- service --------------- */
+.icon_content h4{
+    font-size: 20px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.icon_content p{
+    font-size: 12px;
+}
+/* ------------------- service --------------- */
+
+/* ------------------- Gallary --------------- */
+.show_view{
+    position: relative;
+}
+.show_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 2, 2, 0.685);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.show_view:hover .show_overlay{
+    transform: scale(1);
+    transition: all linear .3s;
+}
+.con_show h4{
+    font-size: 20px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+.con_show p{
+    font-size: 15px;
+    color: white;
+}
+/* ------------------- Gallary --------------- */
+
+/* ------------------- Team --------------- */
+.team_head h3{
+    font-size: 27px;
+}
+.team_head p{
+    font-size: 15px;
+    color: #e84545;
+    text-transform: uppercase;
+}
+.team_con p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, .5);
+}
+.team_icon a{
+    color: lightgray;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    padding: 9px 17px;
+    transition: all linear .5s;
+}
+.team_icon a:hover{
+    color: black;
+    border: 1px solid black;
+    transition: all linear .5s;
+}
+/* ------------------- Team --------------- */
+
+/* ------------------- Slide  --------------- */
+.slide_main{
+    background-color: #533549;
+    height: 100%;
+    width: 100%;
+}
+.slide_con h3{
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding: 20px 0;
+    
+}
+.slide_con p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 6.25rem;
+    left: 9%;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: start;
+}
+/* font-family: 'Playfair Display', serif; */
+/* ------------------- Slide  --------------- */
+
+
+/* ------------------- Download  --------------- */
+.down_con h3{
+    font-size: 30px;
+    font-weight: 100 !important;
+}
+.down_con p{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 11px 0;
+}
+.butt a{
+    padding: 9px 70px;
+    background-color: #e84545;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.butt a:hover{
+    background-color: black;
+    transition: all linear .3s;
+}
+/* ------------------- Download  --------------- */
+/* ------------------- Footer  --------------- */
+#footer{
+    background-color: #3a3e64;
+}
+.comon_head h4{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.footer_content p{
+    color: rgba(255, 255, 255, .5);
+    font-size: 14px;
+}
+.footer_icon a{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 9px 15px;
+    transition: all linear .5s;
+}
+.footer_icon a:hover{
+    color: black;
+    border: 2px solid black;
+    transition: all linear .5s;
+}
+footer{
+    background-color: #313454;
+}
+.footer_final p{
+    color: rgba(255, 255, 255, .6);
+    font-size: 15px;
+}
+.footer_final span{
+    color: red;
+    font-size: 17px;
+}
+/* ------------------- Footer  --------------- */
